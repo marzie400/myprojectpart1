@@ -11,7 +11,6 @@ int main()
 	printf("enter functype-> 1:taghsim or 2: max, 3:func3max\n");
 	scanf("%d",&func_type);
 	if ((func_type==1) || (func_type==2)){
-	printf("%d",func_type);
 	printf("enter 2numbers:\n");
 	scanf("%d\n",&a);
 	scanf("%d",&b);
@@ -20,7 +19,6 @@ int main()
 		else if (func_type==3){
 	 func3(&max,m);
 	}
-	//return 0;
-	}
+		}
 }
 
